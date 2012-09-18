@@ -4,7 +4,7 @@ param1.field='delta';
 param1.values=num2cell(0.05:0.05:1);
 
 param2.field='reconstruct';
-param2.values= {'lasso_tfocs','stomp_far','stomp_rcl','cosamp','tv_tfocs'};
+param2.values= {'lasso_tfocs','stomp_far','stomp_rcl','cosamp'};
 
 % param2b=param2;
 % param2b.values={'lasso_tfocs','stomp_far','stomp_rcl','cosamp','stomp','tv_tfocs'};
@@ -35,6 +35,9 @@ events.runExperiment=@Experiment;
 events.loadInputData=@CSEvaluationImageGetter;
 events.evaluateMetrics= @testQualityMetrics;
 events.storeOutputData= @pngStoreOutputData;
+events.setup_command='setup_study;';
+events.startTasks = @( foldername, ntasks ) startTasksHtmlPost( foldername, ntasks, 'greg.freeman@utexas.edu' );
+events.updateTask= @updateTask;
 
 
 

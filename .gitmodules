@@ -28,3 +28,6 @@
 [submodule "utility/libsvm"]
 	path = utility/libsvm
 	url = git://github.com/gregfreeman/libsvm.git
+[submodule "utility/matlabPyrTools"]
+	path = utility/matlabPyrTools
+	url = git://github.com/gregfreeman/matlabPyrTools.git

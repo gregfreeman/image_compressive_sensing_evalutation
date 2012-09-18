@@ -16,6 +16,8 @@ addpath([folder '/utility/tfocs'])
 addpath([folder '/utility/rice_wavelet_toolbox'])
 addpath([folder '/utility/wavelab850/Orthogonal'])
 addpath([folder '/utility/gf_statistics_toolbox'])
+addpath([folder '/utility/libsvm/matlab'])
+addpath([folder '/utility/matlabPyrTools'])
 
 addpath([folder '/study'])
 

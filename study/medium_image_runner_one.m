@@ -36,7 +36,7 @@ events.runExperiment=@Experiment;
 events.loadInputData=@CSEvaluationImageGetter;
 events.evaluateMetrics= @testQualityMetrics;
 events.storeOutputData= @pngStoreOutputData;
-
+events.setup_command='setup_study;';
 
 
 testRunner(paramset,events);
