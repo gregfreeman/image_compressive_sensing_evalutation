@@ -15,7 +15,7 @@
 	url = git://github.com/gregfreeman/image_utility_toolbox.git
 [submodule "utility/image_quality_toolbox"]
 	path = utility/image_quality_toolbox
-	url = git://github.com/gregfreeman/image_quality_toolbox.git
+	url = gfreeman@bowser.ece.utexas.edu:~/git/image_quality_toolbox.git
 [submodule "utility/gf_utility_toolbox"]
 	path = utility/gf_utility_toolbox
 	url = git://github.com/gregfreeman/gf_utility_toolbox.git
@@ -25,3 +25,6 @@
 [submodule "compressive_sensed_image"]
 	path = compressive_sensed_image
 	url = git://github.com/gregfreeman/compressive_sensed_image.git
+[submodule "utility/libsvm"]
+	path = utility/libsvm
+	url = git://github.com/gregfreeman/libsvm.git
