@@ -1,9 +1,6 @@
 [submodule "utility/rice_wavelet_toolbox"]
 	path = utility/rice_wavelet_toolbox
 	url = git://github.com/gregfreeman/rice_wavelet_toolbox.git
-[submodule "utility/spotbox"]
-	path = utility/spotbox
-	url = git://github.com/gregfreeman/spot.git
 [submodule "utility/gf_statistics_toolbox"]
 	path = utility/gf_statistics_toolbox
 	url = git://github.com/gregfreeman/gf_statistics_toolbox.git
@@ -31,3 +28,6 @@
 [submodule "utility/matlabPyrTools"]
 	path = utility/matlabPyrTools
 	url = git://github.com/gregfreeman/matlabPyrTools.git
+[submodule "utility/spotbox"]
+	path = utility/spotbox
+	url = git://github.com/slimgroup/spot.git
