@@ -28,3 +28,6 @@
 [submodule "utility/matlabPyrTools"]
 	path = utility/matlabPyrTools
 	url = git://github.com/gregfreeman/matlabPyrTools.git
+[submodule "utility/spotbox"]
+	path = utility/spotbox
+	url = git://github.com/gregfreeman/spot.git
