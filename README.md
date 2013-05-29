@@ -23,6 +23,18 @@ Download a copy of [TFOCS](http://tfocs.stanford.edu/) and place in -- `utility/
 
 Download data files  ....   TBD
 
+Build MEX files
+
+    cd utility/libsvm/matlab
+    make
+    cd ../../..
+    cd utility/spgl1
+    spgsetup
+    cd ../..
+    cd utility/matlabPyrTools/MEX
+    compilePyrTools
+    cd ../../..
+
 
 Gettings Started
 ----------------

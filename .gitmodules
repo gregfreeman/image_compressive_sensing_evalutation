@@ -22,12 +22,15 @@
 [submodule "compressive_sensed_image"]
 	path = compressive_sensed_image
 	url = git://github.com/gregfreeman/compressive_sensed_image.git
-[submodule "utility/libsvm"]
-	path = utility/libsvm
-	url = git://github.com/gregfreeman/libsvm.git
 [submodule "utility/matlabPyrTools"]
 	path = utility/matlabPyrTools
 	url = git://github.com/gregfreeman/matlabPyrTools.git
 [submodule "utility/spotbox"]
 	path = utility/spotbox
-	url = git://github.com/gregfreeman/spot.git
+	url = git://github.com/mpf/spot.git
+[submodule "utility/spgl1"]
+	path = utility/spgl1
+	url = git://github.com/mpf/spgl1.git
+[submodule "utility/libsvm"]
+	path = utility/libsvm
+	url = git://github.com/gregfreeman/libsvm.git

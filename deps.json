@@ -1,0 +1,49 @@
+{
+    "needs": [
+        {
+            "path": "experiemnt_framework", 
+            "url": "git://github.com/gregfreeman/experiment_framework.git"
+        }, 
+        {
+            "path": "compressive_sensed_image", 
+            "url": "git://github.com/gregfreeman/compressive_sensed_image.git"
+        }, 
+        {
+            "path": "utility/matlabPyrTools", 
+            "url": "git://github.com/gregfreeman/matlabPyrTools.git"
+        }, 
+        {
+            "path": "utility/image_quality_toolbox", 
+            "url": "gfreeman@bowser.ece.utexas.edu:~/git/image_quality_toolbox.git"
+        }, 
+        {
+            "path": "utility/libsvm", 
+            "url": "git://github.com/gregfreeman/libsvm.git",
+            "branch": "new_matlab_interface"
+        }, 
+        {
+            "path": "utility/image_utility_toolbox", 
+            "url": "git://github.com/gregfreeman/image_utility_toolbox.git"
+        }, 
+        {
+            "path": "utility/wavelab850", 
+            "url": "git://github.com/gregfreeman/wavelab850.git"
+        }, 
+        {
+            "path": "utility/gf_utility_toolbox", 
+            "url": "git://github.com/gregfreeman/gf_utility_toolbox.git"
+        }, 
+        {
+            "path": "utility/spotbox", 
+            "url": "git://github.com/mpf/spot.git"
+        },
+        {
+            "path": "utility/spgl1", 
+            "url": "git://github.com/mpf/spgl1.git"
+        },
+        {
+            "path": "utility/gf_statistics_toolbox", 
+            "url": "git://github.com/gregfreeman/gf_statistics_toolbox.git"
+        }        
+    ]
+}

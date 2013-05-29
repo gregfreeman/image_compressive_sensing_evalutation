@@ -5,7 +5,8 @@ param1.values=num2cell(0.3);
 % param1.values=num2cell(0.05:0.05:1);
 
 param2.field='reconstruct';
-param2.values= {'lasso_tfocs'};
+param2.values= {'spgl1'};
+% param2.values= {'lasso_tfocs'};
 
 % param2b=param2;
 % param2b.values={'lasso_tfocs','stomp_far','stomp_rcl','cosamp','stomp','tv_tfocs'};
