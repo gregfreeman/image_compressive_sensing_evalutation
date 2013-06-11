@@ -21,7 +21,7 @@ events.evaluateMetrics= @testQualityMetrics;
 events.storeOutputData= @pngStoreOutputData;
 events.setup_command='setup_study;';
 events.startTasks = @( foldername, ntasks ) startTasksHtmlPost( foldername, ntasks, 'greg.freeman@utexas.edu' );
-events.updateTask= @updateTask;
+events.updateTask= @updateTaskHtmlPost;
 
 
 

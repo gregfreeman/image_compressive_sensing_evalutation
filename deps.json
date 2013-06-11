@@ -35,7 +35,7 @@
         }, 
         {
             "path": "utility/spotbox", 
-            "url": "git://github.com/mpf/spot.git"
+            "url": "git://github.com/gregfreeman/spot.git"
         },
         {
             "path": "utility/spgl1", 
