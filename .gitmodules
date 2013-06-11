@@ -27,7 +27,7 @@
 	url = git://github.com/gregfreeman/matlabPyrTools.git
 [submodule "utility/spotbox"]
 	path = utility/spotbox
-	url = git://github.com/mpf/spot.git
+	url = git://github.com/gregfreeman/spot.git
 [submodule "utility/spgl1"]
 	path = utility/spgl1
 	url = git://github.com/mpf/spgl1.git
