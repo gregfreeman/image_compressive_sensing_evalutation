@@ -10,7 +10,7 @@ param3.field='structure';
 param3.values= {'unstructured','coarse_fine'};
 
 param4.field='image';
-param4.values=num2cell(1:17);
+param4.values=num2cell(1:30);
 
 param5.field='image_category';
 param5.values={1};
