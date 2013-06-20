@@ -25,8 +25,10 @@ events=struct();
 events.runExperiment=@CoarseFineExperiment;
 events.getImage=@(settings) CSEvaluationImageGetter(settings);
 events.evaluateMetrics= @testQualityMetricsAndNss;
+events.setup_command='setup_study;';
+events.startTasks = @( foldername, ntasks ) startTasksHtmlPost( foldername, ntasks, 'greg.freeman@utexas.edu' );
+events.updateTask= @updateTaskHtmlPost;
 
-% testRunnerDistributed(paramset,events,[],4);
 testRunner(paramset,events);
 
 
