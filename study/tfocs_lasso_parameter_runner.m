@@ -11,7 +11,8 @@ param3.field='image';
 param3.values=num2cell(1:17);
 
 param5.field='lasso_lambda';
-param5.values={0.01,0.05,0.1,0.5,1};
+% param5.values={0.01,0.05,0.1,0.5,1,5,10,50};
+param5.values={5,10,50};
 
 
 paramset=[param1,param2,param3,param5];
