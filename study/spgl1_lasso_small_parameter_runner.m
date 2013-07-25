@@ -15,7 +15,7 @@ function spgl1_lasso_small_parameter_runner
     param4.values={{'cropsize',[128 128]}};
 
     param5.field='lasso_lambda';
-    param5.values={0.01,0.05,0.15,0.25,1,5};
+    param5.values={0.15,0.25,1,5,25,100};
     % param5.values={5,10,50};
 
 
