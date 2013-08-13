@@ -11,13 +11,13 @@ param3.field='image';
 param3.values=num2cell(1:17);
 
 param5.field='cosamp_maxiterations';
-param5.values={50,100,150};
+param5.values={50};
 
 param6.field='cosamp_K_factor';
 param6.values={0.1,0.2,0.25,0.3,0.35,0.5};
 
 param7.field='cosamp_tol';
-param7.values={1e-2,1e-3};
+param7.values={1e-3};
 
 
 paramset=[param1,param2,param3,param5,param6,param7];

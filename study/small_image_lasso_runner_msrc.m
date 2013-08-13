@@ -1,4 +1,4 @@
-function small_image_lasso_runner
+function small_image_lasso_runner_msrc
 
 param1.field='delta';
 param1.values=num2cell(0.05:0.05:1);
