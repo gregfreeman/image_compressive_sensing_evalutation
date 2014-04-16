@@ -1,7 +1,7 @@
 {
     "needs": [
         {
-            "path": "experiemnt_framework", 
+            "path": "experiment_framework", 
             "url": "git://github.com/gregfreeman/experiment_framework.git"
         }, 
         {
