@@ -34,3 +34,6 @@
 [submodule "utility/libsvm"]
 	path = utility/libsvm
 	url = git://github.com/gregfreeman/libsvm.git
+[submodule "experiemnt_framework"]
+	path = experiemnt_framework
+	url = git://github.com/gregfreeman/experiment_framework.git

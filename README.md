@@ -1,7 +1,7 @@
 Image Compressive Sensing Evaluation 
 ====================================
 
-This code collection provides an evaluation framework for comparing different compressive sensing algorithms
+This code collection provides an evaluation testbed for comparing different compressive sensing algorithms
 
 Installation
 ------------
@@ -14,14 +14,18 @@ Download the code via git
 
 Download the submodules via git
 
-
+    cd image_compressive_sensing_evaluation
     git submodule init
     git submodule update
 
-Download a copy of [TFOCS](http://tfocs.stanford.edu/) and place in -- `utility/tfocs`
+Download data files
 
-
-Download data files  ....   TBD
+	datafiles:  http://research-t-l1l2.s3-website-us-east-1.amazonaws.com/data/refimgs.zip 
+	unzip location:  ../data/refimgs512x512/  	
+	
+	wget http://research-t-l1l2.s3-website-us-east-1.amazonaws.com/data/refimgs.zip
+	mkdir ../data
+	unzip refimgs.zip -d ../data/refimgs512x512
 
 Build MEX files
 

@@ -14,7 +14,7 @@
         }, 
         {
             "path": "utility/image_quality_toolbox", 
-            "url": "gfreeman@bowser.ece.utexas.edu:~/git/image_quality_toolbox.git"
+            "url": "git://github.com/gregfreeman/image_quality_toolbox.git"
         }, 
         {
             "path": "utility/libsvm", 
@@ -44,6 +44,10 @@
         {
             "path": "utility/gf_statistics_toolbox", 
             "url": "git://github.com/gregfreeman/gf_statistics_toolbox.git"
-        }        
+        },
+        {
+            "path": "utility/tfocs",
+        	"url": "https://github.com/mcg1969/TFOCS.git"            
+        }      
     ]
 }
